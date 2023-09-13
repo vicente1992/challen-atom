@@ -1,9 +1,23 @@
-<form [formGroup]="form" (submit)="onSubmit()">
-    <input type="text" formControlName="name">
-    <input type="text" formControlName="description">
-    <button [disabled]="form.invalid">Save</button>
-</form>
+<section class="section">
+    <div class="section__container">
+        <form class="form" [formGroup]="form" (submit)="onSubmit()">
+            <div>
+                <input type="text" formControlName="name">
+            </div>
+            <div>
+                <input type="text" formControlName="description">
+            </div>
+            <div>
 
-<app-tasks-card [task]="item" *ngFor="let item of tasks$  |async" (cbDeleted)="getTasks()" (cbTask)="editTask($event)">
+                <button [disabled]="form.invalid">Save</button>
+            </div>
+        </form>
 
-</app-tasks-card>
+        <div class="container-task">
+            <app-tasks-card [task]="item" *ngFor="let item of tasks$  |async" (cbLoad)="getTasks()"
+                (cbTask)="editTask($event)">
+            </app-tasks-card>
+        </div>
+
+    </div>
+</section>

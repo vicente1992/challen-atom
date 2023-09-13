@@ -25,6 +25,6 @@ export class TasksCardComponent {
   completedAndPending(task: ITask) {
     task.completed = !task.completed;
     this.tasksService.updateTaks(task.id, task)
-      .subscribe(() => this.cbLoad.emit())
+      .subscribe()
   }
 }
