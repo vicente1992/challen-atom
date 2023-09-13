@@ -1,13 +1,13 @@
 {
-    "type": "service_account",
-    "project_id": "atom-callenge",
-    "private_key_id": "027a87215d6f368afa44817eef9a0513fec2f0cd",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCVP/Ht7QwTQ93a\n41gYNy21FGiPNbwBPdl/hidXUvY5DAnQRXXwsP0ylyRFw2ZVLT+1ac9OSJ7dhzMQ\npS1yUj45a2VAlWm/35+2/p8APYu+gQkT6540i3bYsjvsOnfeCY+k4CN7JjPdKC/w\nbVme0o/I8K4e37cEmYrxr9eSQ7AggkXiem4Kt+NbNzI9xk6rUTik91drDYW/pDhW\n/1TEaK6vcS+m8uoALKbiq0Yl4LbD5rDwsJDUiKEnWinOMtPECi+k9EjtIlx+sKe2\nUJNS/DzNynG3e43Vr8AZSZI3xBAO2GxFgrFbXXbRRcV6AxQkcRABNku1vVhy57Zc\ndxVbhfrvAgMBAAECggEAId6jj+tqAJs3pxtNnB01hbDuc4Vtt1hqWcq/dc0xbEvD\nlFyXAbqgkxECncRUnkLJAOnUrj7DsqEiYQYjFJz+Wvh4v1nI6E6ex5/rxFmzM1XE\nEh23xtPZch6sg5TXK+++hduJocJPJcKfcm/WVTkSgTbBROde+K/BfMx7Xsl2mEGv\nNL+0J7MqjM3CH0OJ5x2spGgrsii17AOV8j80GRiJVSNhlJ6qdf5QAjWX24ehJDdQ\nAap631aNKrWSUHqmNayWLdThfIJxwu2BB1MxVLZXZPIjJScZSNCxVzWU9eri/IEF\n87TS1ik3q5mdT60LhLdPqyXvXtlqljjCrLuQNNtE/QKBgQDN6uG7Qbp9fuV63c0p\nB1PnkTptFl+c6iU5fmRG9JwZKy6RmWUIXg47/EmlrxWSZ1x3S4aTOQ/oA6obl7TQ\nnD3f8ygTOsNioV6c3axPsjU8NNM8tUpB5ZCr2yMa/LWy+xaz6venawC1FZng7fBV\nSn+mX/RXNkOjDFvF6G0OrZImzQKBgQC5jL1oHev3J+eZfidGYrdx3c3nHWj6jzlV\n03/cMK4Z4aVC3f/HPAPtQOB31Kf24PxpiDQTqQcx5rKygoXH3k+QEo0Bv/hvBKxi\nq3iTMCQqbcB+eid6S0O21pb3gqorIrbyEJmb3uy2OIMkfznpCS2o9zwTlprPbJmB\nP7vCfd5QqwKBgEQ1svKBklHxz/hEMqqNl9iUPeNWzvM+iHgkCvmKG48mw7VNN69u\n4I40Qv0UIzQs8u89YGWyODelxxp+xVF4//IILNU52PD5/Uo/D84SfRnlcbehYei0\nL5kN7PIKlfGkxN9yTPjzM/fIIQHmL39BP0mQbXLaMct304qaNE3xZwFdAoGAN78r\nIN7siCM7GAio8CK0jsdfF3LkmXLyfPDAV31gsXHz3vUn5coIO/3j8ty3YhsSevpq\n+wUrnjh7s9o3K2eFa/nG16G/mEtFJ5fw7/fkxcKXtOgqeDmorIQoc1CUo8UYRf3q\nyMPfRpgP/qUi1vrk9wDg0dnLxUoRjJ2DYdnDM2UCgYBkEkbQ3kjnS3Ffg/f1wwGa\nzzLKht4B7SA9/S2xqARcncsv+Zc6gROZ4zYCScp6droqxjvZT5+2EWMdRE9KEOKU\nYw2k111kcwGWpKj1mYJ4a0SBLlsd80OBMMjT88LWg9rVmzyTHV/J9vUfEHHpDd5v\nUYw6Ae8rpFNR7El5aD7LtQ==\n-----END PRIVATE KEY-----\n",
-    "client_email": "firebase-adminsdk-1y2bk@atom-callenge.iam.gserviceaccount.com",
-    "client_id": "116476012429405878041",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1y2bk%40atom-callenge.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
+    "type": "",
+    "project_id": "",
+    "private_key_id": "",
+    "private_key": "",
+    "client_email": "",
+    "client_id": "",
+    "auth_uri": "",
+    "token_uri": "",
+    "auth_provider_x509_cert_url": "",
+    "client_x509_cert_url": "",
+    "universe_domain": " "
 }
