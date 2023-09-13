@@ -1,0 +1,9 @@
+<form [formGroup]="form" (submit)="onSubmit()">
+    <input type="text" formControlName="name">
+    <input type="text" formControlName="description">
+    <button [disabled]="form.invalid">Save</button>
+</form>
+
+<app-tasks-card [task]="item" *ngFor="let item of tasks$  |async" (cbDeleted)="getTasks()" (cbTask)="editTask($event)">
+
+</app-tasks-card>
