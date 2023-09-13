@@ -5,7 +5,6 @@ import { validateResults } from '../utils/handleValidation';
 export const createTaskValidator = [
   check('name').exists().notEmpty(),
   check('description').exists().notEmpty(),
-  check('completed').exists().isBoolean().notEmpty(),
   (req: Request, res: Response, next: NextFunction) => {
     return validateResults(req, res, next);
   },

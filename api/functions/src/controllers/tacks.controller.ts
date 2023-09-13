@@ -18,6 +18,7 @@ export class TasksController {
   async create(req: Request, res: Response) {
     try {
       const body = matchedData(req);
+      body.completed = false;
       const task = new Tasks(body)
       const response = await tasksService.create(task);
       res.status(201).json(response);

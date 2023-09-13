@@ -1,17 +1,25 @@
 <section class="section">
     <div class="section__container">
-        <form class="form" [formGroup]="form" (submit)="onSubmit()">
-            <div>
-                <input type="text" formControlName="name">
-            </div>
-            <div>
-                <input type="text" formControlName="description">
-            </div>
-            <div>
+        <div class="title">
+            <h2>Mis tareas</h2>
+        </div>
+        <div class="card-form">
+            <form class="form" [formGroup]="form" (submit)="onSubmit()">
+                <div class="input-field">
+                    <input type="text" formControlName="name" placeholder="Nombre">
+                </div>
+                <div class="input-field">
+                    <!-- <textarea type="text" cols="10" rows="3" formControlName="description"
+                        placeholder="Agregar descripción"></textarea> -->
+                    <input type="text" formControlName="description" placeholder="Descripción">
+                </div>
+                <div class="action">
+                    <button class="btn-plus" [disabled]="form.invalid">
+                        <i class="ri-save-line"></i> </button>
+                </div>
+            </form>
 
-                <button [disabled]="form.invalid">Save</button>
-            </div>
-        </form>
+        </div>
 
         <div class="container-task">
             <app-tasks-card [task]="item" *ngFor="let item of tasks$  |async" (cbLoad)="getTasks()"

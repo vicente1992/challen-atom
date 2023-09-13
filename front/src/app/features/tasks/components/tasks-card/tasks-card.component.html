@@ -1,16 +1,28 @@
 <div class="card" *ngIf="task">
-    <div>
-        <input type="checkbox" [checked]="task.completed" (change)="completedAndPending(task)">
-    </div>
+    <div class="card__body">
+        <div>
+            <label class="container-checkbox">
+                <input type="checkbox" class="checkbox" [checked]="task.completed" (change)="completedAndPending(task)">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="info">
+            <span class="title">{{task.name}} </span>
+            <span class="description">{{task.description}} </span>
+        </div>
+        <div class="status" [ngClass]="{'completed': task.completed, 'pending': !task.completed}">
+            <span>
+                {{task.completed ? 'Completado': 'pendiente'}}
 
-    <span class="card__divider" [ngClass]="{'completed': task.completed, 'pending': !task.completed}"></span>
-
-    <div class="card__info">
-        <span class="title">{{task.name}} </span>
-        <span class="description">{{task.description}} </span>
+            </span>
+        </div>
     </div>
     <div class="card__actions">
-        <button class="btn-transparent" (click)="editTask(task)"><i class="ri-pencil-line"></i></button>
-        <button class="btn-transparent" (click)="deleteTask(task.id)"><i class="ri-delete-bin-4-line"></i></button>
+        <button class="btn-transparent" (click)="editTask(task)">
+            <i class="ri-pencil-line"></i>
+        </button>
+        <button class="btn-transparent" (click)="deleteTask(task.id)">
+            <i class="ri-delete-bin-4-line"></i>
+        </button>
     </div>
 </div>

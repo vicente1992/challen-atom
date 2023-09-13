@@ -1,3 +1,5 @@
+@import "src/variables";
+
 .section {
     display: flex;
     align-items: center;
@@ -6,18 +8,45 @@
     padding: 40px 0px;
 
     &__container {
+        .title {
+            font-size: 18px;
+        }
+
+        .card-form {
+            background-color: $color-white;
+            padding: 20px;
+            border-radius: $border-radius;
+            gap: 20px;
+            box-shadow: $box-shadow;
+        }
 
         .form {
             display: flex;
             gap: 10px;
-            flex-wrap: wrap;
+            align-items: center;
 
             input {
                 padding: 10px 20px;
-                border-radius: 8px;
-                border: 1px solid #2596be;
+                border-radius: $border-radius;
+                border: none;
                 outline: none;
-                font-size: 18px;
+                font-size: 16px;
+                background: $bg-input;
+                height: 30px;
+            }
+
+            .btn-plus {
+                border: none;
+                cursor: pointer;
+                font-size: 14px;
+                padding: 10px;
+                border-radius: $border-radius;
+                transition: all ease 150ms;
+                background-color: $color-primary;
+                color: $color-white;
+                float: right;
+
+
             }
         }
     }
@@ -29,4 +58,28 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 30px;
+}
+
+@media (max-width: 640px) {
+    .form {
+        flex-direction: column;
+        align-items: normal !important;
+
+        input {
+            width: 88%;
+        }
+
+        .action {
+            float: right;
+        }
+    }
+}
+
+@media (min-width: 640px) {
+    .section {
+        .section__container {
+            width: 560px;
+
+        }
+    }
 }

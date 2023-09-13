@@ -53,7 +53,7 @@ export class TasksComponent implements OnInit {
     this.form = new FormGroup({
       name: new FormControl(null, [Validators.required]),
       description: new FormControl(null, [Validators.required]),
-      completed: new FormControl(false),
+      completed: new FormControl(),
     })
   }
 }
